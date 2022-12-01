@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Aplikacja</string>
+    <string name="wlewo"><![CDATA[<<<]]></string>
+    <string name="wprawo"><![CDATA[>>>]]></string>
+    <string name="podaj_liczbe">Podaj liczbe</string>
+    <string name="pokaz_wynik">Pokaz Wynik</string>
+    <string name="silnia">Silnia</string>
+    <string name="todo">TODO</string>
 </resources>

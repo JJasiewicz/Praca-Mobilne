@@ -16,13 +16,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/pies" />
+        app:srcCompat="@drawable/pies"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/wlewo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="<<<"
+        android:text="@string/wlewo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.105"
@@ -34,7 +35,7 @@
         android:id="@+id/wprawo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=">>>"
+        android:text="@string/wprawo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.897"
@@ -47,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Podaj liczbe"
+        android:hint="@string/podaj_liczbe"
         android:inputType="number"
         android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,13 +56,14 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.642" />
+        app:layout_constraintVertical_bias="0.642"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/submit"
         android:layout_width="231dp"
         android:layout_height="48dp"
-        android:text="Pokaz Wynik"
+        android:text="@string/pokaz_wynik"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -75,7 +77,7 @@
         android:layout_marginStart="171dp"
         android:layout_marginTop="146dp"
         android:layout_marginEnd="182dp"
-        android:text="Silnia"
+        android:text="@string/silnia"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
